@@ -24,13 +24,8 @@ export class DashboardComponent {
 
   save() {
 
-    let alreadyExists = false;
-
-    for (let player of this.roster){
-      if (player.name == this.selectedPlayer.name) {
-        alreadyExists = true;
-      }
-    }
+    let alreadyExists = this.roster.some(
+      (player) => player.name == this.selectedPlayer.name);
 
     if (alreadyExists) {
       alert("Info for " + this.selectedPlayer.name + " saved.");
