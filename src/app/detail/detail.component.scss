@@ -1,0 +1,34 @@
+h2 {
+    text-shadow: 0px 3px black;
+    color: silver;
+}
+
+button {
+    border-radius: 5px;
+}
+
+input {
+    margin-left: 15px;
+}
+
+span {
+    display: flex;
+    margin: 30px;
+    font-style: italic;
+}
+
+select {
+    margin-left: 15px;
+}
+
+.details {
+    text-align: center;
+    box-shadow: 0px 0px 2px 5px rgb(139, 41, 66);
+    padding: 10px;
+    margin-top: 120px;
+    margin-right: 220px;
+}
+
+button:hover {
+    color: rgb(139, 41, 66);
+}
