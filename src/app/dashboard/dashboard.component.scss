@@ -1,0 +1,26 @@
+h2 {
+    text-shadow: 0px 3px black;
+    color: silver;
+}
+
+button {
+    background-color: rgb(139, 41, 66);
+    border-radius: 5px;
+    font-size: medium;
+    padding: 7px;
+}
+
+button:hover {
+    background-color: rgb(88, 12, 31);
+}
+
+
+.menu {
+    text-align: center;
+    padding: 5px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}

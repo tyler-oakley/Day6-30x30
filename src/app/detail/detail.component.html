@@ -1,0 +1,16 @@
+<div class="details">
+    <h2>Player Info:</h2>
+    <span>Name: <input [(ngModel)]="selectedPlayer.name" type="text"></span>
+    <span>Number: <input [(ngModel)]="selectedPlayer.number" type="number"></span>
+    <span>Position:
+        <select [(ngModel)]="selectedPlayer.position">
+            <option>Center</option>
+            <option>Left Wing</option>
+            <option>Right Wing</option>
+            <option>Defenseman</option>
+            <option>Goaltender</option>
+        </select>
+    </span>
+    <span>Healthy: <input [(ngModel)]="selectedPlayer.isHealthy" type="checkbox"></span>
+    <button class="save" (click)="onSave.emit()">Save/Add</button>
+</div>

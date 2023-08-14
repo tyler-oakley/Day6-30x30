@@ -1,0 +1,41 @@
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: silver;
+    font-size: xx-large;
+    text-shadow: 0px 3px black;
+}
+
+button {
+    width: 100px;
+    margin-left: 95px;
+    font-weight: bold;
+    background-color: rgb(139, 41, 66);
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(88, 12, 31);
+}
+
+input {
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.fields {
+    width: fit-content;
+    margin-left: 555px;
+    margin-top: 70px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 3px black;
+    background-color: silver;
+}
+
+span {
+    margin-bottom: 50px;
+    color: rgb(139, 41, 66);
+    font-size: x-large;
+}

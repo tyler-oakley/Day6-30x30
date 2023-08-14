@@ -1,0 +1,6 @@
+<div class="list">
+    <div *ngFor="let player of roster">
+        <button (click)="onSelect.emit(player)">#{{ player.number }} {{ player.name }}</button>
+        <button class="delete" (click)="onDelete.emit(player)">X</button>
+    </div>
+</div>

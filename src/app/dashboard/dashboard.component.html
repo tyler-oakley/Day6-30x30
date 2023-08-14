@@ -1,0 +1,8 @@
+<div class="menu">
+    <h2>Home</h2>
+    <button><a routerLink="/login">Logout</a></button>
+</div>
+<div class="main">
+    <app-list [roster]="roster" (onDelete)="deletePlayer($event)" (onSelect)="selectPlayer($event)"></app-list>
+    <app-detail [selectedPlayer]="selectedPlayer" (onSave)="save()"></app-detail>
+</div>
